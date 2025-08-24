@@ -7,21 +7,12 @@ The goal is to detect whether construction workers are wearing safety helmets, a
 
 ## 📂 Dataset
 
-We used a **custom dataset** containing images of construction workers in different scenarios.  
-The dataset is labeled with three categories:
+- **Source:** [Kaggle – Hard Hat Detection](https://www.kaggle.com/datasets/andrewmvd/hard-hat-detection) 
+- **Content:**  
+  - ~**5,000 images**  
+  - Bounding box annotations in Pascal VOC format  
+  - Classes: **helmet**, **head**, **person** 
 
-- **Helmet** (workers wearing hardhats)
-- **Head** (unprotected heads without helmets)
-- **Person** (persons in the scene)
-
-**Dataset Statistics:**
-- **Images:** ~1000
-- **Instances:** ~5000
-- **Classes:** 3 (`helmet`, `head`, `person`)
-
-The dataset was split into:
-- **Training set**
-- **Validation set**
 
 ---
 
